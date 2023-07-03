@@ -1,0 +1,65 @@
+.productmerge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.formmerge{
+    width: 70%;
+    height: 500px;
+    display: inline-block;
+    background-color: #ffffff;
+    box-shadow: -5px 6px 24px 1px rgba(113,113,113,0.71);
+  -webkit-box-shadow: -5px 6px 24px 1px rgba(113,113,113,0.71);
+  -moz-box-shadow: -5px 6px 24px 1px rgba(113,113,113,0.71);
+}
+
+.editform{
+        margin:100px;
+    text-align: center;
+}
+
+.addform{
+    margin:40px;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    margin-top: 10px;
+    height:30px;
+    
+
+}
+
+.formmerge h4{
+    margin-top:10px;
+    text-align: left;
+    
+}
+
+.formmerge h1{
+    text-align:center;
+}
+
+
+.editform input[type=submit]{
+    margin-top:50px;
+    border-radius:25px;
+    border:none;
+    background-color:orange;
+    font-weight:bold;
+   
+}
+
+.addform input[type=submit]{
+    margin-top:50px;
+    border-radius:25px;
+    border:none;
+    background-color:orange;
+    font-weight:bold;
+   
+}

@@ -1,0 +1,185 @@
+@import url(https://fonts.cdnfonts.com/css/helvetica-neue-9);
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #348600 ;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar .nav-inner{
+    display: inline-flex;
+	width: 100%;
+	height: 100%;
+    justify-content: center;
+}
+
+
+
+.logo{
+    display: inline-flex;
+    height: 100%;
+    width: 60%;
+    text-decoration: none;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.logo a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+
+
+
+.rightbar{
+    display: inline-flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    padding-right: 40px;
+    
+}
+
+.rightbar a{
+    text-decoration: none;
+    font-size: 19px;
+    padding-right: 15px;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.rightbar a:hover{
+    color: blue;
+}
+
+.rightbar img{
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: white;
+  
+  
+}
+.footermerge{
+    width: 100%;
+    height: 300px;
+    background-color: #717171;
+    
+  }
+  
+  .footerwrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .footerwrap .about{
+    width: 200px;
+    
+    margin-right: 100px;
+  
+  }
+  .footerwrap .about h4{
+    font-family: inter;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+  }
+  .footerwrap .about a{
+    display: flex;
+    text-decoration: none;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    color: #ffffff;
+    padding-top: 7px;
+    font-size: 12px;
+    font-size: light;
+  }
+  
+  .footerwrap .paymentandlogi{
+    width: 250px;
+    
+    margin-right: 100px;
+    
+  }
+  
+  .footerwrap .payment h4{
+    font-family: inter;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  
+  .footerwrap .payment .icon{
+    margin-top: 20px;
+    color: black;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .footerwrap .payment .icon i{
+    padding: 10px;
+  }
+  .footerwrap .logistic{
+    margin-top: 30px;
+  }
+  
+  .footerwrap .logistic h4{
+    font-family: inter;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  .footerwrap .logistic i{
+    color: black;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footerwrap .socialmedia{
+    width: 250px;
+  }
+  
+  .footerwrap .socialmedia h4{
+    font-family: inter;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  .footerwrap .socialmedia .socialmediaicon{
+    margin-top: 30px;
+  }
+  .footerwrap .socialmedia .socialmediaicon a{
+    font-size: 17px;
+    display: flex;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white ;
+    font-family: inter;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    
+  }
+  
+  .footerwrap .socialmedia .socialmediaicon i{
+    padding-right: 10px;
+    color: black;
+    
+  }
+  
+  
